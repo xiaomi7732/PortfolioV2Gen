@@ -1,0 +1,100 @@
+{
+  "target": "announcements",
+  "type": "list",
+  "itemTemplate": "[$date$] $leading$: <a href='$link$' target='$target$' class='$class$'>$text$</a> - $description$ | <a href='$source$' target='$target$'>$sourceDescription$</a>",
+  "default": {
+    "target": "_blank",
+    "class": "highlight-text",
+    "sourceDescription": "Source Code"
+  },
+  "data": [
+    {
+      "date": "9/10/2022",
+      "leading": "Published new project",
+      "text": "JS + CSS light/dark mode",
+      "description": "HTML/JS/CSS Switch between light/dark theme",
+      "link": "https://theme.codewithsaar.net",
+      "source": "https://www.github.com/xiaomi7732/jsDarkTheme"
+    },
+    {
+      "date": "8/31/2022",
+      "leading": "Published new project",
+      "text": "The clock",
+      "description": "HTML/JS PWA clock application",
+      "link": "https://clock.codewithsaar.net",
+      "source": "https://www.github.com/xiaomi7732/jsClock"
+    },
+    {
+      "date": "8/8/2022",
+      "leading": "Published new project",
+      "text": "Fishcard",
+      "description": "Search what fish to eat while pregnant - Powered by Blazor WASM",
+      "link": "https://fishcard.codewithsaar.net",
+      "source": "https://github.com/xiaomi7732/CodeWithSaar/tree/dev/saars/fishcard/FishCard"
+    },
+    {
+      "date": "6/9/2022",
+      "leading": "Published NuGet package",
+      "text": "CodeWithSaar.Extensions.ContainerId 0.0.2",
+      "description": "Get container id by one line of code.",
+      "link": "https://www.nuget.org/packages/CodeWithSaar.Extensions.ContainerId/0.0.2",
+      "source": "https://github.com/xiaomi7732/CGroupV2ContainerId"
+    },
+    {
+      "date": "5/22/2022",
+      "leading": "New CLI tool",
+      "text": "Cosmos Sync CLI",
+      "description": "Backup Cosmos DB easily",
+      "link": "https://github.com/xiaomi7732/CosmosSync",
+      "source": "https://github.com/xiaomi7732/CosmosSync"
+    },
+    {
+      "date": "5/10/2022",
+      "leading": "New CLI tool",
+      "text": "NuGet.Dependencies",
+      "description": "Visualize project / NuGet dependencies",
+      "link": "https://github.com/xiaomi7732/CodeWithSaar.Extensions.ProjectAssets",
+      "source": "https://github.com/xiaomi7732/CodeWithSaar.Extensions.ProjectAssets"
+    },
+    {
+      "date": "4/12/2022",
+      "leading": "Published a new NuGet package",
+      "text": "CodeWithSaar.Extensions.Logging.File",
+      "description": "Writing logs to file by one line of code",
+      "link": "https://www.nuget.org/packages/CodeWithSaar.Extensions.Logging.File",
+      "source": "https://github.com/xiaomi7732/CodeWithSaar.Extensions.Logging"
+    },
+    {
+      "date": "3/2/2022",
+      "leading": "Published a new project",
+      "text": "Stack Beauty",
+      "description": "Pretty print any stack trace and make stack reading easier",
+      "link": "https://stack.codewithsaar.net",
+      "source": "https://github.com/xiaomi7732/StackBeauty"
+    },
+    {
+      "date": "1/30/2022",
+      "leading": "Published a new version",
+      "text": "NumberIt (CodeNameK)",
+      "description": "1.0.0-beta2",
+      "link": "https://github.com/xiaomi7732/CodeWithSaar/tree/main/CodeNameK",
+      "source": "https://github.com/xiaomi7732/CodeWithSaar/tree/main/CodeNameK"
+    },
+    {
+      "date": "1/8/2022",
+      "leading": "Published a new version",
+      "text": "NumberIt (CodeNameK)",
+      "description": "1.0.0-beta1",
+      "link": "https://github.com/xiaomi7732/CodeWithSaar/tree/main/CodeNameK",
+      "source": "https://github.com/xiaomi7732/CodeWithSaar/tree/main/CodeNameK"
+    },
+    {
+      "date": "12/31/2021",
+      "leading": "Published a page",
+      "text": "NumberIt Release Page",
+      "description": "Detail about NumberIt",
+      "link": "https://github.com/xiaomi7732/CodeWithSaar/tree/main/CodeNameK",
+      "source": "https://github.com/xiaomi7732/CodeWithSaar/tree/main/CodeNameK"
+    }
+  ]
+}

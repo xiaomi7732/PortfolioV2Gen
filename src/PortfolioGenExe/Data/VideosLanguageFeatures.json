@@ -1,0 +1,22 @@
+{
+  "target": "videos-language-features",
+  "type": "list",
+  "itemTemplate": "<a href='$link$' target='$target$'>$text$</a>",
+  "default": {
+    "target": "_blank"
+  },
+  "data": [
+    {
+      "text": "C# Delegate",
+      "link": "https://youtu.be/L5SN2-agGaY"
+    },
+    {
+      "text": "Extension Method",
+      "link": "https://youtu.be/RH4B_i-nq44"
+    },
+    {
+      "text": "Computed Properties",
+      "link": "https://youtu.be/lO622PQuPBc"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "target": "videos-getting-started",
+  "type": "list",
+  "itemTemplate": "<a href='$link$' target='$target$'>$text$</a>",
+  "default": {
+    "target": "_blank"
+  },
+  "data": [
+    {
+      "text": "How to download .NET",
+      "link": "https://youtu.be/O_Un6_2mhL0"
+    },
+    {
+      "text": "How to Build C# Projects",
+      "link": "https://youtu.be/yJ-buQg09Qc"
+    },
+    {
+      "text": "C# project",
+      "link": "https://youtu.be/uQrs6ioZfzs"
+    },
+    {
+      "text": "Project reference",
+      "link": "https://youtu.be/pJETdpS5PR8"
+    }
+  ]
+}
