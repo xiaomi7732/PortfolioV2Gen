@@ -5,11 +5,11 @@ namespace PortfolioGenExe;
 internal class ListGen : IGen
 {
     const string AcceptType = "list";
-    private readonly ListItemGen _listItemGen;
+    private readonly ListItemGenFactory _listItemGenFactory;
 
-    public ListGen(ListItemGen listItemGen)
+    public ListGen(ListItemGenFactory listItemGenFactory)
     {
-        _listItemGen = listItemGen ?? throw new ArgumentNullException(nameof(listItemGen));
+        _listItemGenFactory = listItemGenFactory ?? throw new ArgumentNullException(nameof(listItemGenFactory));
     }
 
 
@@ -25,7 +25,8 @@ internal class ListGen : IGen
         htmlBuilder.Append("<ul>");
         foreach (IDictionary<string, string> dataItem in data.Data)
         {
-            htmlBuilder.Append(_listItemGen.Generate(data.ItemTemplate, data.Default, dataItem));
+            ListItemGen itemGen = _listItemGenFactory.Create(data.ItemTemplate);
+            htmlBuilder.Append(itemGen.Generate(data.Default, dataItem));
         }
         htmlBuilder.Append("</ul>");
 

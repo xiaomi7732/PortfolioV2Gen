@@ -7,7 +7,7 @@ internal static class ListGenExtensions
 {
     public static ServiceCollection TryAddListGenServices(this ServiceCollection services)
     {
-        services.TryAddSingleton<ListItemGen>();
+        services.TryAddSingleton<ListItemGenFactory>();
         services.TryAddEnumerable(ServiceDescriptor.Singleton<IGen, ListGen>());
 
         return services;
