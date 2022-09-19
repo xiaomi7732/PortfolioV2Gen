@@ -7,6 +7,10 @@
     },
     "data": [
         {
+            "text": "Build fishcard by Blazor step by step in less than 12 minutes | .NET fullstack dev - 004",
+            "link": "https://youtu.be/EpasIuKs5G8"
+        },
+        {
             "text": "Learn Blazor Client Component by building fishcard | .NET fullstack dev - 003",
             "link": "https://youtu.be/ByCXGvN5bkU"
         },
@@ -21,10 +25,6 @@
         {
             "text": "ASP.NET Core WebAPI CORS error fixed and explained",
             "link": "https://youtu.be/3eFQkchyF2A"
-        },
-        {
-            "text": "How to use async await to load data in Xamarin Activity - CodeNameK - 19",
-            "link": "https://youtu.be/0wywqtTvZqg"
         }
     ]
 }
