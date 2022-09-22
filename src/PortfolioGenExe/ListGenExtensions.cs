@@ -10,6 +10,8 @@ internal static class ListGenExtensions
         services.TryAddSingleton<ListItemGenFactory>();
         services.TryAddEnumerable(ServiceDescriptor.Singleton<IGen, ListGen>());
 
+        services.TryAddEnumerable(ServiceDescriptor.Singleton<IExam, DuplicatedValueExam>());
+
         return services;
     }
 }

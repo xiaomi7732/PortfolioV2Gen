@@ -1,4 +1,5 @@
 using System.Text;
+using Microsoft.Extensions.Logging;
 
 namespace PortfolioGenExe;
 
@@ -6,10 +7,18 @@ internal class ListGen : IGen
 {
     const string AcceptType = "list";
     private readonly ListItemGenFactory _listItemGenFactory;
+    private readonly IEnumerable<IExam> _exams;
+    private readonly ILogger<ListGen> _logger;
 
-    public ListGen(ListItemGenFactory listItemGenFactory)
+    public ListGen(
+        ListItemGenFactory listItemGenFactory,
+        IEnumerable<IExam> exams,
+        ILogger<ListGen> logger
+        )
     {
+        _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         _listItemGenFactory = listItemGenFactory ?? throw new ArgumentNullException(nameof(listItemGenFactory));
+        _exams = exams ?? throw new ArgumentNullException(nameof(exams));
     }
 
 
@@ -21,6 +30,15 @@ internal class ListGen : IGen
 
     public string Generate(DataMeta data)
     {
+        foreach (IExam exam in _exams)
+        {
+            (bool pass, string? details) = exam.Execute(data);
+            if (!pass)
+            {
+                _logger.LogWarning("Failed examination: {examType}. Details: {failedDetails}", exam.GetType().Name, details);
+            }
+        }
+
         StringBuilder htmlBuilder = new StringBuilder();
         htmlBuilder.Append("<ul>");
         foreach (IDictionary<string, string> dataItem in data.Data)
