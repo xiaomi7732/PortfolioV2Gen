@@ -26,7 +26,7 @@ public class ListItemGen
         {
             merged[dataItem.Key] = dataItem.Value;
         }
-        _logger.LogInformation("Merged dict: {merged}", merged);
+        _logger.LogDebug("Merged dict: {merged}", merged);
 
         StringBuilder builder = new StringBuilder();
         builder.Append("<li>");

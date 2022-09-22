@@ -23,7 +23,7 @@ internal class TemplateUpdateService
         _logger.LogInformation($"Looking for regex matching. Pattern: {pattern}");
         if (matcher.IsMatch(template))
         {
-            _logger.LogInformation("Match succeeded.");
+            _logger.LogTrace("Match succeeded.");
             result = matcher.Replace(template, m => $"{m.Groups[1].Value}{content}{m.Groups[3].Value}");
             return true;
         }

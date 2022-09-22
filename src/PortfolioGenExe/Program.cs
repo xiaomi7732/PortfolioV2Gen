@@ -90,7 +90,7 @@ namespace PortfolioGenExe
                 _logger.LogTrace("Running generator: {generator}", generator.GetType());
                 if (generator.CanGen(data))
                 {
-                    _logger.LogInformation("Generator hit: {generator}", generator.GetType());
+                    _logger.LogDebug("Generator hit: {generator}", generator.GetType());
                     yield return (data.Target, generator.Generate(data));
                     break;
                 }
