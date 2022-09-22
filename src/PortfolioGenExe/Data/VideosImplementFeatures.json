@@ -1,0 +1,30 @@
+{
+  "target": "videos-implement-features",
+  "type": "list",
+  "itemTemplate": "<a href='$link$' target='$target$'>$text$</a>",
+  "default": {
+    "target": "_blank"
+  },
+  "data": [
+    {
+      "text": "Graph APIs: How to Use OAuth 2.0 to Access Microsoft GraphAPI/OneDrive",
+      "link": "https://youtu.be/NljQx11YqNY"
+    },
+    {
+      "text": "Graph APIs: Use Microsoft Graph .NET SDK with Azure.Identity",
+      "link": "https://youtu.be/xh0uu4z9-rE"
+    },
+    {
+      "text": "Graph APIs: Upload large file w/ progress to OneDrive",
+      "link": "https://youtu.be/yuoAWP3wn80"
+    },
+    {
+      "text": "Deep Clone with Serializer",
+      "link": "https://youtu.be/MpM5NIyq18I"
+    },
+    {
+      "text": "Benchmark: Manual Serialization vs Json Serializer",
+      "link": "https://youtu.be/5R3yXyKWk98"
+    }
+  ]
+}
