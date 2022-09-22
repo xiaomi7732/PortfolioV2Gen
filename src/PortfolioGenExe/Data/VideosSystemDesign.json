@@ -1,0 +1,30 @@
+{
+  "target": "videos-system-design",
+  "type": "list",
+  "itemTemplate": "<a href='$link$' target='$target$'>$text$</a>",
+  "default": {
+    "target": "_blank"
+  },
+  "data": [
+    {
+      "text": "How to use C# Channel to implement better syncing experience",
+      "link": "https://youtu.be/b9PRGqTKCWQ"
+    },
+    {
+      "text": "User Options with IOptionsMonitor and JsonSerializer",
+      "link": "https://youtu.be/TcHkM5332Ho"
+    },
+    {
+      "text": "Encoding Filename by Build an Encoder / Decoder",
+      "link": "https://youtu.be/-w_b925PSfE"
+    },
+    {
+      "text": "Two way data synchronization challenge",
+      "link": "https://youtu.be/g1wyDi254Yw"
+    },
+    {
+      "text": "Immutable - an extraordinary strategy for two-way synchronization",
+      "link": "https://youtu.be/psYWy6KJTyg"
+    }
+  ]
+}

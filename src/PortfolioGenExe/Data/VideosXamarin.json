@@ -1,0 +1,30 @@
+{
+  "target": "videos-xamarin",
+  "type": "list",
+  "itemTemplate": "<a href='$link$' target='$target$'>$text$</a>",
+  "default": {
+    "target": "_blank"
+  },
+  "data": [
+    {
+      "text": "Xamarin Android Layout - what to master or to avoid in 2022",
+      "link": "https://youtu.be/OzTwh1ZqFM4"
+    },
+    {
+      "text": "Learn Coordinator Layout to build a beautiful activity",
+      "link": "https://youtu.be/olVAweQAxys"
+    },
+    {
+      "text": "How to build a Custom Dialog in Xamarin works with lifetime events",
+      "link": "https://youtu.be/PVTBRHSKB-U"
+    },
+    {
+      "text": "How to use async await to load data in Xamarin Activity",
+      "link": "https://youtu.be/0wywqtTvZqg"
+    },
+    {
+      "text": "Access File System",
+      "link": "https://youtu.be/7YJHBX1abfs"
+    }
+  ]
+}

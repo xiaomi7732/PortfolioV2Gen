@@ -1,0 +1,26 @@
+{
+  "target": "videos-logging",
+  "type": "list",
+  "itemTemplate": "<a href='$link$' target='$target$'>$text$</a>",
+  "default": {
+    "target": "_blank"
+  },
+  "data": [
+    {
+      "text": ".NET (C#) Logging with ILogger",
+      "link": "https://youtu.be/gRdi7Z-T9JI"
+    },
+    {
+      "text": "Benchmark: High performance logging in .NET",
+      "link": "https://youtu.be/NDm_VPwaDjI"
+    },
+    {
+      "text": "How to implement custom logging provider for file",
+      "link": "https://youtu.be/3RUpYR4dZM4"
+    },
+    {
+      "text": "How to support user configuration for a logging provider",
+      "link": "https://youtu.be/3Z3yemyikNc"
+    }
+  ]
+}

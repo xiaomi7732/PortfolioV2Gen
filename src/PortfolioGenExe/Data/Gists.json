@@ -1,0 +1,50 @@
+{
+  "target": "gists",
+  "type": "list",
+  "itemTemplate": "<a href='$link$' target='$target$'>$text$</a>",
+  "default": {
+    "target": "_blank"
+  },
+  "data": [
+    {
+      "text": "Detect duplications in real project scenario",
+      "link": "https://gist.github.com/xiaomi7732/9b4632d57b0159c3e887c36ef3fa23df"
+    },
+    {
+      "text": "Hit K8s pod quickly for testing",
+      "link": "https://gist.github.com/xiaomi7732/4ef6a710c1f5a4dc84ea1963132cdfb7"
+    },
+    {
+      "text": "JWT Multiple Roles",
+      "link": "https://gist.github.com/xiaomi7732/4dc8a6d6b0c971b82ab96810e637b446"
+    },
+    {
+      "text": "Minimum .editorConfig",
+      "link": "https://gist.github.com/xiaomi7732/b27f53e0473371517ecc0787be68d0c1"
+    },
+    {
+      "text": "Apex custom domain binding for GitHub pages",
+      "link": "https://gist.github.com/xiaomi7732/ebc60425b8cc19ecde28d0564b0be6c9"
+    },
+    {
+      "text": "Custom domain binding for Github pages",
+      "link": "https://gist.github.com/xiaomi7732/444df06b5de5c047f3e064c18f3393fe"
+    },
+    {
+      "text": "How to debug Azure Function Auto Scale",
+      "link": "https://gist.github.com/xiaomi7732/347f3d75c563205c211ebe22d779151e"
+    },
+    {
+      "text": "How to enable Azure Function Scale Controller Logs",
+      "link": "https://gist.github.com/xiaomi7732/0374a90f8717a5d24894e5632e81c461"
+    },
+    {
+      "text": "Copy files to output folder on build in csproj",
+      "link": "https://gist.github.com/xiaomi7732/ad69c040c1468682e1d6173ee9b2509e"
+    },
+    {
+      "text": "Hidden Disposables",
+      "link": "https://gist.github.com/xiaomi7732/146dd6ea68483b7215e336ca4783d4e6"
+    }
+  ]
+}

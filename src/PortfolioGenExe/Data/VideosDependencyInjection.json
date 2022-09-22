@@ -1,0 +1,30 @@
+{
+  "target": "videos-di",
+  "type": "list",
+  "itemTemplate": "<a href='$link$' target='$target$'>$text$</a>",
+  "default": {
+    "target": "_blank"
+  },
+  "data": [
+    {
+      "text": "Learn DI by printing a JSON dog",
+      "link": "https://youtu.be/YnBPjt2dBWk"
+    },
+    {
+      "text": "DI in .NET Core & ASP.NET Core",
+      "link": "https://youtu.be/cYV1JmWiTHQ"
+    },
+    {
+      "text": "Service lifetime in DI container of ASP.NET Core",
+      "link": "https://youtu.be/MkORmRZrljo"
+    },
+    {
+      "text": "Three Anti-Patterns",
+      "link": "https://youtu.be/8z1oJSPabLw"
+    },
+    {
+      "text": "Factory Pattern in DI",
+      "link": "https://youtu.be/9Ocjb-NLGhw"
+    }
+  ]
+}

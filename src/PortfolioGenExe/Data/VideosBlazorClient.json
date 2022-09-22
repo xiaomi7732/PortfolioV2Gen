@@ -1,0 +1,30 @@
+{
+  "target": "videos-blazor-client",
+  "type": "list",
+  "itemTemplate": "<a href='$link$' target='$target$'>$text$</a>",
+  "default": {
+    "target": "_blank"
+  },
+  "data": [
+    {
+      "text": "Learn Blazor by building fishcard | .NET fullstack dev - 001",
+      "link": "https://youtu.be/bE0mNuyoLhk"
+    },
+    {
+      "text": "Learn Blazor Routing and Navigation by building fishcard | .NET fullstack dev - 002",
+      "link": "https://youtu.be/4B87xqF1re0"
+    },
+    {
+      "text": "Learn Blazor Client Component by building fishcard | .NET fullstack dev - 003",
+      "link": "https://youtu.be/ByCXGvN5bkU"
+    },
+    {
+      "text": "Build fishcard by Blazor step by step in less than 12 minutes | .NET fullstack dev - 004",
+      "link": "https://youtu.be/EpasIuKs5G8"
+    }
+  ]
+}
+
+
+
+
