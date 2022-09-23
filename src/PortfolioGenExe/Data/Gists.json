@@ -7,6 +7,14 @@
   },
   "data": [
     {
+      "text": "What happens when you call ConfigureOptions<T> on IServiceCollection",
+      "link": "https://gist.github.com/xiaomi7732/585c2a7b8cdfb419ae46c2e62d2eccfc"
+    },
+    {
+      "text": "Configure JWT Bearer Options based on another option",
+      "link": "https://gist.github.com/xiaomi7732/20ff2ad11b085a851759d3835b95c8d7"
+    },
+    {
       "text": "Detect duplications in real project scenario",
       "link": "https://gist.github.com/xiaomi7732/9b4632d57b0159c3e887c36ef3fa23df"
     },
