@@ -1,0 +1,51 @@
+{
+  "target": "demo-projects",
+  "type": "repeat",
+  "itemTemplatePath": "./DemoProject.Template.html",
+  "default": {
+    "target": "_blank",
+    "sourceRepoType": "GitHub"
+  },
+  "dataTemplate": {
+    "name": "",
+    "url": "",
+    "imageSrc": "",
+    "sourceRepoUrl": "",
+    "highlights": "",
+    "description": ""
+  },
+  "data": [
+    {
+      "name": "Fishcard",
+      "url": "https://fishcard.codewithsaar.net",
+      "imageSrc": "./images/project-preview-fishcard.png",
+      "sourceRepoUrl": "https://github.com/xiaomi7732/CodeWithSaar/tree/dev/saars/fishcard/FishCard",
+      "highlights": "Blazor WebAssembly",
+      "description": "Search for safe fish to buy and eat!"
+    },
+    {
+      "name": "The Clock",
+      "url": "https://clock.codewithsaar.net",
+      "imageSrc": "./images/project-preview-clock.png",
+      "sourceRepoUrl": "https://github.com/xiaomi7732/jsClock",
+      "highlights": "Javascript, CSS, PWA(Progress Web Application)",
+      "description": "A PWA application that displays a clock with seconds on it. This is a project to address the problem that the timer on Windows 11 Taskbar doesn't show seconds."
+    },
+    {
+      "name": "Stack Beauty",
+      "url": "https://stack.codewithsaar.net",
+      "imageSrc": "./images/project-preview-stackbeauty.png",
+      "sourceRepoUrl": "https://github.com/xiaomi7732/StackBeauty",
+      "highlights": ".NET WebAPI backend + Javascript Frontend, Dark Mode Light Mode support",
+      "description": "Pretty print any stack trace and make stack reading easier."
+    },
+    {
+      "name": "NumberIt - CodeNameK",
+      "url": "https://github.com/xiaomi7732/CodeWithSaar/tree/main/CodeNameK",
+      "imageSrc": "./images/project-preview-number-it.png",
+      "sourceRepoUrl": "https://github.com/xiaomi7732/CodeWithSaar/tree/main/CodeNameK",
+      "highlights": "WPF, MVVM, Data Sync over OneDrive",
+      "description": "Record the numbers for your daily life."
+    }
+  ]
+}

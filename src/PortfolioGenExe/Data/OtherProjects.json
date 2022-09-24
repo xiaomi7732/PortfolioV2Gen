@@ -1,0 +1,22 @@
+{
+  "target": "other-projects",
+  "type": "list",
+  "itemTemplate": "<a href='$link$' target='$target$'>$text$</a>",
+  "default": {
+    "target": "_blank"
+  },
+  "data": [
+    {
+      "text": "NuGet dependency visualizer",
+      "link": "https://github.com/xiaomi7732/CodeWithSaar.Extensions.ProjectAssets"
+    },
+    {
+      "text": "File Logging Extension for ILogger",
+      "link": "https://www.nuget.org/packages/CodeWithSaar.Extensions.Logging.File"
+    },
+    {
+      "text": "JWT Auth for AspNetCore WebAPI",
+      "link": "https://www.nuget.org/packages/CodeWithSaar.JWTAuthentication.WebAPI"
+    }
+  ]
+}

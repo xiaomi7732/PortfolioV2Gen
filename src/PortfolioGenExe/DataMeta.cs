@@ -6,7 +6,8 @@ public class DataMeta
 
     public string Type { get; set; } = default!;
 
-    public string ItemTemplate { get; set; } = default!;
+    public string? ItemTemplate { get; set; }
+    public string? ItemTemplatePath { get; set; }
 
     public IDictionary<string, string> Default { get; set; } = default!;
 

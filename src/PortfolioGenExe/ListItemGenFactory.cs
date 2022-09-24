@@ -11,8 +11,8 @@ internal class ListItemGenFactory
         _loggerFactory = loggerFactory ?? throw new ArgumentNullException(nameof(loggerFactory));
     }
 
-    public ListItemGen Create(string itemTemplate)
+    public ListItemGen Create(string itemTemplate, bool skipListItemTag = false)
     {
-        return new ListItemGen(itemTemplate, _loggerFactory.CreateLogger<ListItemGen>());
+        return new ListItemGen(itemTemplate, skipListItemTag, _loggerFactory.CreateLogger<ListItemGen>());
     }
 }

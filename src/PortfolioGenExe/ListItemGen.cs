@@ -7,8 +7,9 @@ public class ListItemGen
 {
     private readonly ILogger _logger;
     private readonly string _itemTemplate;
+    private readonly bool _skipListItemTag;
 
-    public ListItemGen(string itemTemplate, ILogger<ListItemGen> logger)
+    public ListItemGen(string itemTemplate, bool skipListItemTag, ILogger<ListItemGen> logger)
     {
         if (string.IsNullOrEmpty(itemTemplate))
         {
@@ -16,6 +17,7 @@ public class ListItemGen
         }
 
         _itemTemplate = itemTemplate;
+        _skipListItemTag = skipListItemTag;
         _logger = logger ?? throw new ArgumentNullException(nameof(logger));
     }
 
@@ -29,7 +31,11 @@ public class ListItemGen
         _logger.LogDebug("Merged dict: {merged}", merged);
 
         StringBuilder builder = new StringBuilder();
-        builder.Append("<li>");
+
+        if (!_skipListItemTag)
+        {
+            builder.Append("<li>");
+        }
 
         string itemTemplate = _itemTemplate;
         foreach (KeyValuePair<string, string> dataItem in merged)
@@ -37,7 +43,11 @@ public class ListItemGen
             itemTemplate = itemTemplate.Replace($"${dataItem.Key}$", dataItem.Value);
         }
         builder.Append(itemTemplate);
-        builder.Append("</li>");
+
+        if (!_skipListItemTag)
+        {
+            builder.Append("</li>");
+        }
 
         return builder.ToString();
     }

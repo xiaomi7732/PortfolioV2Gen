@@ -3,33 +3,30 @@ using Microsoft.Extensions.Logging;
 
 namespace PortfolioGenExe;
 
-internal class ListGen : ListGenBase
+internal class RepeatGen : ListGenBase
 {
     private readonly ListItemGenFactory _listItemGenFactory;
 
-    public ListGen(
+    public RepeatGen(
         ListItemGenFactory listItemGenFactory,
         IEnumerable<IExam> exams,
-        ILogger<ListGen> logger
-        ) : base(exams, logger)
+        ILogger<RepeatGen> logger) : base(exams, logger)
     {
         _listItemGenFactory = listItemGenFactory ?? throw new ArgumentNullException(nameof(listItemGenFactory));
     }
 
-    protected override string AcceptType => "list";
+    protected override string AcceptType => "repeat";
 
     protected override ListItemGen CreateListItemGen(string templateContent)
-    {
-        return _listItemGenFactory.Create(templateContent, skipListItemTag: false);
-    }
+        => _listItemGenFactory.Create(templateContent, skipListItemTag: true);
 
     protected override void OnGeneratedItems(StringBuilder builder)
     {
-        builder.Append("</ul>");
+        // Do nothing
     }
 
     protected override void OnGeneratingItems(StringBuilder builder)
     {
-        builder.Append("<ul>");
+        // Do nothing
     }
 }
