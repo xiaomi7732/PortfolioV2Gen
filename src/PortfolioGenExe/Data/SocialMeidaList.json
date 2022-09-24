@@ -1,0 +1,35 @@
+{
+  "target": "social-media-list",
+  "type": "repeat",
+  "itemTemplatePath": "./SocialMediaList.Template.html",
+  "default": {
+    "target": "_blank"
+  },
+  "data": [
+    {
+      "imgSrc": "./images/social-youtube-icon.svg",
+      "text": "Code w/ Saar",
+      "link": "https://youtube.com/codewithsaar"
+    },
+    {
+      "imgSrc": "./images/social-twitter-icon.svg",
+      "text": "@SaarShen",
+      "link": "https://twitter.com/SaarShen"
+    },
+    {
+      "imgSrc": "./images/social-twitter-icon.svg",
+      "text": "@CodeWithSaar",
+      "link": "https://twitter.com/CodeWithSaar"
+    },
+    {
+      "imgSrc": "./images/social-github-icon.png",
+      "text": "xiaomi7732",
+      "link": "https://github.com/xiaomi7732"
+    },
+    {
+      "imgSrc": "./images/social-discord-icon.svg",
+      "text": "Code with Saar",
+      "link": "https://discord.gg/H8ZqDgczQb"
+    }
+  ]
+}
