@@ -7,6 +7,10 @@
   },
   "data": [
     {
+      "text": "Use HttpFactory for multiple HttpClients in Blazor WASM",
+      "link": "https://gist.github.com/xiaomi7732/50da8f8f739a1ed05b2fde667cd9ba9f"
+    },
+    {
       "text": "What happens when you call ConfigureOptions<T> on IServiceCollection",
       "link": "https://gist.github.com/xiaomi7732/585c2a7b8cdfb419ae46c2e62d2eccfc"
     },
