@@ -34,7 +34,7 @@ public class ListItemGen
 
         if (!_skipListItemTag)
         {
-            builder.Append("<li>");
+            builder.Append("<li class='searchable-item'>");
         }
 
         string itemTemplate = _itemTemplate;
