@@ -7,27 +7,27 @@
   },
   "data": [
     {
-      "imgSrc": "./images/social-youtube-icon.svg",
+      "name": "youtube",
       "text": "Code w/ Saar",
       "link": "https://youtube.com/codewithsaar"
     },
     {
-      "imgSrc": "./images/social-twitter-icon.svg",
+      "name": "twitter",
       "text": "@SaarShen",
       "link": "https://twitter.com/SaarShen"
     },
     {
-      "imgSrc": "./images/social-twitter-icon.svg",
+      "name": "twitter",
       "text": "@CodeWithSaar",
       "link": "https://twitter.com/CodeWithSaar"
     },
     {
-      "imgSrc": "./images/social-github-icon.png",
+      "name": "github",
       "text": "xiaomi7732",
       "link": "https://github.com/xiaomi7732"
     },
     {
-      "imgSrc": "./images/social-discord-icon.svg",
+      "name": "discord",
       "text": "Code with Saar",
       "link": "https://discord.gg/H8ZqDgczQb"
     }
