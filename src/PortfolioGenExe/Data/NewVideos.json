@@ -7,6 +7,10 @@
   },
   "data": [
     {
+      "text": "Use Event handling, DI, Datalist in building fishcard | .NET fullstack dev - 005",
+      "link": "https://youtu.be/OQ7QR3ysK3s"
+    },
+    {
       "text": "Build fishcard by Blazor step by step in less than 12 minutes | .NET fullstack dev - 004",
       "link": "https://youtu.be/EpasIuKs5G8"
     },
@@ -21,10 +25,6 @@
     {
       "text": "Learn Blazor by building fishcard | .NET fullstack dev - 001",
       "link": "https://youtu.be/bE0mNuyoLhk"
-    },
-    {
-      "text": "ASP.NET Core WebAPI CORS error fixed and explained",
-      "link": "https://youtu.be/3eFQkchyF2A"
     }
   ]
 }
