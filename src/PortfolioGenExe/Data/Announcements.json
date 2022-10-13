@@ -9,6 +9,14 @@
   },
   "data": [
     {
+      "date": "10/12/2022",
+      "leading": "Published new project",
+      "text": ".NET Project Dependency Analyzer",
+      "description": "Visualize your project dependencies",
+      "link": "https://dep.codewithsaar.net",
+      "source": "https://www.github.com/xiaomi7732/ProjectDependencyViz"
+    },
+    {
       "date": "9/10/2022",
       "leading": "Published new project",
       "text": "JS + CSS light/dark mode",
