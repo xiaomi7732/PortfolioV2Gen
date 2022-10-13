@@ -16,6 +16,14 @@
   },
   "data": [
     {
+      "name": ".NET Project Dependency Analyzer",
+      "url": "https://dep.codewithsaar.com/",
+      "imageSrc": "./images/project-preview-dep.png",
+      "sourceRepoUrl": "https://github.com/xiaomi7732/ProjectDependencyViz",
+      "highlights": "Blazor WebAssembly, D3",
+      "description": "Visualize your application's dependency chains."
+    },
+    {
       "name": "Fishcard",
       "url": "https://fishcard.codewithsaar.net",
       "imageSrc": "./images/project-preview-fishcard.png",
