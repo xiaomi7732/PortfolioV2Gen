@@ -7,6 +7,14 @@
   },
   "data": [
     {
+      "text": "Make an optional service in .NET DI container",
+      "link": "https://gist.github.com/xiaomi7732/d4e9b023609322d0414a3790e3df625d"
+    },
+    {
+      "text": "Set default namespace for kubectl",
+      "link": "https://gist.github.com/xiaomi7732/2dec34890817d9f1283d65260558878e"
+    },
+    {
       "text": "Do not rely on autostart of Blazor wasm",
       "link": "https://gist.github.com/xiaomi7732/591a4b55a380b629d88e1f388f709ec0"
     },
