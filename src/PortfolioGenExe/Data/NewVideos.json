@@ -7,6 +7,10 @@
   },
   "data": [
     {
+      "text": "Learn Blazor by building Fishcard: looking back, moving forward | .NET fullstack dev - 007",
+      "link": "https://youtu.be/N3wmKqE_tTY"
+    },
+    {
       "text": "Learn CSS Styles and CSS Isolation by building fishcard | .NET fullstack dev - 006",
       "link": "https://youtu.be/vAgP_oVKvLs"
     },
@@ -21,10 +25,6 @@
     {
       "text": "Learn Blazor Client Component by building fishcard | .NET fullstack dev - 003",
       "link": "https://youtu.be/ByCXGvN5bkU"
-    },
-    {
-      "text": "Learn Blazor Routing and Navigation by building fishcard | .NET fullstack dev - 002",
-      "link": "https://youtu.be/4B87xqF1re0"
     }
   ]
 }
