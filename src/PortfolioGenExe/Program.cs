@@ -3,19 +3,26 @@ using System.Text.Json;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
+using PortfolioGenExe.YouTube;
 
 namespace PortfolioGenExe
 {
     internal class Program
     {
+        private readonly YouTubeFeedReader _youTubeFeedReader;
         private readonly IEnumerable<IGen> _generators;
+        private readonly JsonSerializerOptions _serializerOptions;
         private readonly ILogger<Program> _logger;
 
         public Program(
+            YouTubeFeedReader youTubeFeedReader,
             IEnumerable<IGen> generators,
+            JsonSerializerOptions serializerOptions,
             ILogger<Program> logger)
         {
+            _youTubeFeedReader = youTubeFeedReader;
             _generators = generators ?? throw new ArgumentNullException(nameof(generators));
+            _serializerOptions = serializerOptions ?? throw new ArgumentNullException(nameof(serializerOptions));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
@@ -27,6 +34,8 @@ namespace PortfolioGenExe
                 ILogger logger = provider.GetRequiredService<ILogger<Program>>();
                 JsonSerializerOptions serializingOptions = provider.GetRequiredService<JsonSerializerOptions>();
                 Program booster = provider.GetRequiredService<Program>();
+                await booster.RunBeforeGenAsync(default);
+
                 TemplateUpdateService templateUpdater = provider.GetRequiredService<TemplateUpdateService>();
 
                 logger.LogInformation("Logging system is ready.");
@@ -79,8 +88,42 @@ namespace PortfolioGenExe
             serviceCollection.TryAddListGenServices();
 
             serviceCollection.TryAddSingleton<TemplateUpdateService>();
+            serviceCollection.TryAddSingleton<YouTubeFeedReader>();
 
             return serviceCollection;
+        }
+
+        public async Task RunBeforeGenAsync(CancellationToken cancellationToken)
+        {
+            string targetFile = "Data/NewVideos.json";
+            DataMeta? data = null;
+            using (Stream inputStream = File.OpenRead(targetFile))
+            {
+                data = await JsonSerializer.DeserializeAsync<DataMeta>(inputStream, _serializerOptions, cancellationToken).ConfigureAwait(false);
+            }
+            if (data is null)
+            {
+                throw new InvalidOperationException("No json source for new Videos.");
+            }
+
+            List<IDictionary<string, string>> newData = new List<IDictionary<string, string>>();
+            await foreach (YouTubeItem item in _youTubeFeedReader.GetYouTubeItemsAsync(cancellationToken))
+            {
+                newData.Add(new Dictionary<string, string>
+                {
+                    ["text"] = item.Title,
+                    ["link"] = item.LinkToVideo.ToString(),
+                });
+            }
+
+            data.Data = newData;
+
+            string tempFileName = Path.GetTempFileName();
+            using (Stream outputStream = File.OpenWrite(tempFileName))
+            {
+                await JsonSerializer.SerializeAsync(outputStream, data, _serializerOptions, cancellationToken).ConfigureAwait(false);
+            }
+            File.Move(tempFileName, targetFile, overwrite: true);
         }
 
         public IEnumerable<(string Target, string HtmlPart)> Generate(DataMeta data)
