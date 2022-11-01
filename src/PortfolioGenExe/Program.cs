@@ -95,11 +95,20 @@ namespace PortfolioGenExe
 
         public async Task RunBeforeGenAsync(CancellationToken cancellationToken)
         {
-            string targetFile = "Data/NewVideos.json";
+            Task t1 = UpdateFromYouTubeFeedForData("Data/NewVideos.json", cancellationToken);
+            Task t2 = UpdateFromYouTubeFeedForData("Data/NewVideoThumbnail.json", cancellationToken);
+
+            await Task.WhenAll(t1, t2);
+        }
+
+        private async Task UpdateFromYouTubeFeedForData(string targetFile, CancellationToken cancellationToken)
+        {
             DataMeta? data = null;
+            JsonSerializerOptions serializerOptions = new JsonSerializerOptions(_serializerOptions);
+            serializerOptions.WriteIndented = true;
             using (Stream inputStream = File.OpenRead(targetFile))
             {
-                data = await JsonSerializer.DeserializeAsync<DataMeta>(inputStream, _serializerOptions, cancellationToken).ConfigureAwait(false);
+                data = await JsonSerializer.DeserializeAsync<DataMeta>(inputStream, serializerOptions, cancellationToken).ConfigureAwait(false);
             }
             if (data is null)
             {
@@ -113,6 +122,7 @@ namespace PortfolioGenExe
                 {
                     ["text"] = item.Title,
                     ["link"] = item.LinkToVideo.ToString(),
+                    ["thumbnailUri"] = item.ThumbnailUri.ToString(),
                 });
             }
 
@@ -121,7 +131,7 @@ namespace PortfolioGenExe
             string tempFileName = Path.GetTempFileName();
             using (Stream outputStream = File.OpenWrite(tempFileName))
             {
-                await JsonSerializer.SerializeAsync(outputStream, data, _serializerOptions, cancellationToken).ConfigureAwait(false);
+                await JsonSerializer.SerializeAsync(outputStream, data, serializerOptions, cancellationToken).ConfigureAwait(false);
             }
             File.Move(tempFileName, targetFile, overwrite: true);
         }

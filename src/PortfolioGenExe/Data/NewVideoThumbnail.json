@@ -1,7 +1,7 @@
 {
-  "target": "new-videos",
-  "type": "list",
-  "itemTemplate": "\u003Ca href=\u0027$link$\u0027 target=\u0027$target$\u0027\u003E$text$\u003C/a\u003E",
+  "target": "thumbnail",
+  "type": "YTThumbnail",
+  "itemTemplate": "\u003Cimg src=\u0027$thumbnailUri$\u0027 alt=\u0027A image for $text$\u0027 title=\u0027$text$\u0027 class=\u0027yt-thumbnail\u0027 /\u003E",
   "itemTemplatePath": null,
   "default": {
     "target": "_blank"
