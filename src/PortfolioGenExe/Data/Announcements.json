@@ -9,6 +9,14 @@
   },
   "data": [
     {
+      "date": "12/20/2022",
+      "leading": "Published new project",
+      "text": "Roshambo (Rock, Paper and Scissors)",
+      "description": "Play a Roshambo with the computer.",
+      "link": "https://roshambo.codewithsaar.com",
+      "source": "https://www.github.com/xiaomi7732/Roshambo"
+    },
+    {
       "date": "10/12/2022",
       "leading": "Published new project",
       "text": ".NET Project Dependency Analyzer",

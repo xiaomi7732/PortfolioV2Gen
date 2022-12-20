@@ -16,6 +16,14 @@
   },
   "data": [
     {
+      "name": "Roshambo (Rock, Paper and Scissors)",
+      "url": "https://roshambo.codewithsaar.com/",
+      "imageSrc": "./images/project-preview-roshambo.png",
+      "sourceRepoUrl": "https://github.com/xiaomi7732/Roshambo",
+      "highlights": "Javascript, .NET 6 Minimal API, RESTful",
+      "description": "Play a Roshambo game with the computer."
+    },
+    {
       "name": ".NET Project Dependency Analyzer",
       "url": "https://dep.codewithsaar.com/",
       "imageSrc": "./images/project-preview-dep.png",
