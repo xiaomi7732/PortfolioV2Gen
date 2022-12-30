@@ -7,6 +7,10 @@
   },
   "data": [
     {
+      "text": "Customize thread pool defaults, avoid the caveats",
+      "link": "https://gist.github.com/xiaomi7732/e12f045a805c68b8d30b8c1cdd1cde71"
+    },
+    {
       "text": "Make an optional service in .NET DI container",
       "link": "https://gist.github.com/xiaomi7732/d4e9b023609322d0414a3790e3df625d"
     },
