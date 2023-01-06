@@ -7,6 +7,10 @@
   },
   "data": [
     {
+      "text": "How did I leverage .NET 7 Polymorphic Serialization when building Roshambo API",
+      "link": "https://gist.github.com/xiaomi7732/834f28034c64af91492392b5b7d36fa5"
+    },
+    {
       "text": "Customize thread pool defaults, avoid the caveats",
       "link": "https://gist.github.com/xiaomi7732/e12f045a805c68b8d30b8c1cdd1cde71"
     },
