@@ -8,6 +8,11 @@
   },
   "data": [
     {
+      "text": "Learn RESTful API by building Fishcard: Core concepts | .NET fullstack dev - 008",
+      "link": "https://www.youtube.com/watch?v=VIObIFg0yS0",
+      "thumbnailUri": "https://i3.ytimg.com/vi/VIObIFg0yS0/hqdefault.jpg"
+    },
+    {
       "text": "Learn Blazor by building Fishcard: looking back, moving forward | .NET fullstack dev - 007",
       "link": "https://www.youtube.com/watch?v=N3wmKqE_tTY",
       "thumbnailUri": "https://i3.ytimg.com/vi/N3wmKqE_tTY/hqdefault.jpg"
@@ -26,11 +31,6 @@
       "text": "Build fishcard by Blazor step by step in less than 12 minutes | .NET fullstack dev - 004",
       "link": "https://www.youtube.com/watch?v=EpasIuKs5G8",
       "thumbnailUri": "https://i2.ytimg.com/vi/EpasIuKs5G8/hqdefault.jpg"
-    },
-    {
-      "text": "Better understand the Blazor Component by building fishcard | .NET fullstack dev - 003",
-      "link": "https://www.youtube.com/watch?v=ByCXGvN5bkU",
-      "thumbnailUri": "https://i3.ytimg.com/vi/ByCXGvN5bkU/hqdefault.jpg"
     }
   ]
 }
