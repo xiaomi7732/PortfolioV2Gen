@@ -7,16 +7,20 @@
   },
   "data": [
     {
+      "text": "RESTful API",
+      "link": "https://youtu.be/VIObIFg0yS0"
+    },
+    {
+      "text": "Get Started by Create WebAPI (Minimal / Controller-based)",
+      "link": "https://youtu.be/97_XR5Kznj4"
+    },
+    {
       "text": "ASP.NET Core WebAPI CORS error fixed and explained",
       "link": "https://youtu.be/3eFQkchyF2A"
     },
     {
       "text": "ASP.NET Core Pipeline",
       "link": "https://youtu.be/K9sBI9ZFxRA"
-    },
-    {
-      "text": "RESTful API",
-      "link": "https://youtu.be/VIObIFg0yS0"
     }
   ]
 }
