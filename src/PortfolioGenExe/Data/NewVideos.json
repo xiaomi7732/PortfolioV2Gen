@@ -8,6 +8,11 @@
   },
   "data": [
     {
+      "text": "Efficiently Building Minimal and Controller-based WebAPIs | .NET fullstack dev - 009",
+      "link": "https://www.youtube.com/watch?v=97_XR5Kznj4",
+      "thumbnailUri": "https://i2.ytimg.com/vi/97_XR5Kznj4/hqdefault.jpg"
+    },
+    {
       "text": "Learn RESTful API by building Fishcard: Core concepts | .NET fullstack dev - 008",
       "link": "https://www.youtube.com/watch?v=VIObIFg0yS0",
       "thumbnailUri": "https://i3.ytimg.com/vi/VIObIFg0yS0/hqdefault.jpg"
@@ -26,11 +31,6 @@
       "text": "Use Event handling, DI, Datalist in building fishcard | .NET fullstack dev - 005",
       "link": "https://www.youtube.com/watch?v=OQ7QR3ysK3s",
       "thumbnailUri": "https://i4.ytimg.com/vi/OQ7QR3ysK3s/hqdefault.jpg"
-    },
-    {
-      "text": "Build fishcard by Blazor step by step in less than 12 minutes | .NET fullstack dev - 004",
-      "link": "https://www.youtube.com/watch?v=EpasIuKs5G8",
-      "thumbnailUri": "https://i2.ytimg.com/vi/EpasIuKs5G8/hqdefault.jpg"
     }
   ]
 }
