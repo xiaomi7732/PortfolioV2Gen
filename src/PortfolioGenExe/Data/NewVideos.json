@@ -8,6 +8,11 @@
   },
   "data": [
     {
+      "text": "Pick the right HTTP Verb for the WebAPI | .NET fullstack dev - 010",
+      "link": "https://www.youtube.com/watch?v=aIbJaAj1vLY",
+      "thumbnailUri": "https://i2.ytimg.com/vi/aIbJaAj1vLY/hqdefault.jpg"
+    },
+    {
       "text": "Efficiently Building Minimal and Controller-based WebAPIs | .NET fullstack dev - 009",
       "link": "https://www.youtube.com/watch?v=97_XR5Kznj4",
       "thumbnailUri": "https://i2.ytimg.com/vi/97_XR5Kznj4/hqdefault.jpg"
@@ -26,11 +31,6 @@
       "text": "Learn CSS Styles and CSS Isolation by building fishcard | .NET fullstack dev - 006",
       "link": "https://www.youtube.com/watch?v=vAgP_oVKvLs",
       "thumbnailUri": "https://i3.ytimg.com/vi/vAgP_oVKvLs/hqdefault.jpg"
-    },
-    {
-      "text": "Use Event handling, DI, Datalist in building fishcard | .NET fullstack dev - 005",
-      "link": "https://www.youtube.com/watch?v=OQ7QR3ysK3s",
-      "thumbnailUri": "https://i4.ytimg.com/vi/OQ7QR3ysK3s/hqdefault.jpg"
     }
   ]
 }
