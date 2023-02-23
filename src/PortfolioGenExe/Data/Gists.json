@@ -11,8 +11,16 @@
       "link": "https://gist.github.com/xiaomi7732/c097c89e4fdf1bf8923c302bcf553930"
     },
     {
+      "text": "Clean binding options pattern for writing class library",
+      "link": "https://gist.github.com/xiaomi7732/a0af8fc802a4a7624768f09fa0dc0074"
+    },
+    {
       "text": "How did I leverage .NET 7 Polymorphic Serialization when building Roshambo API",
       "link": "https://gist.github.com/xiaomi7732/834f28034c64af91492392b5b7d36fa5"
+    },
+    {
+      "text": "How to verify SHA256 signature by GitHub WebHooks in ASP.NET Core WebAPI",
+      "link": "https://gist.github.com/xiaomi7732/b1a20083fc1f7eb980e1eddeca492785"
     },
     {
       "text": "Customize thread pool defaults, avoid the caveats",
