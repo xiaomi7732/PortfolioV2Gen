@@ -8,6 +8,11 @@
   },
   "data": [
     {
+      "text": "Mastering Web API Attribute Routing in ASP.NET Core | .NET fullstack dev - 011",
+      "link": "https://www.youtube.com/watch?v=OP1gl9KcM1A",
+      "thumbnailUri": "https://i4.ytimg.com/vi/OP1gl9KcM1A/hqdefault.jpg"
+    },
+    {
       "text": "Pick the right HTTP Verb for the WebAPI | .NET fullstack dev - 010",
       "link": "https://www.youtube.com/watch?v=aIbJaAj1vLY",
       "thumbnailUri": "https://i2.ytimg.com/vi/aIbJaAj1vLY/hqdefault.jpg"
@@ -26,11 +31,6 @@
       "text": "Learn Blazor by building Fishcard: looking back, moving forward | .NET fullstack dev - 007",
       "link": "https://www.youtube.com/watch?v=N3wmKqE_tTY",
       "thumbnailUri": "https://i3.ytimg.com/vi/N3wmKqE_tTY/hqdefault.jpg"
-    },
-    {
-      "text": "Learn CSS Styles and CSS Isolation by building fishcard | .NET fullstack dev - 006",
-      "link": "https://www.youtube.com/watch?v=vAgP_oVKvLs",
-      "thumbnailUri": "https://i3.ytimg.com/vi/vAgP_oVKvLs/hqdefault.jpg"
     }
   ]
 }
