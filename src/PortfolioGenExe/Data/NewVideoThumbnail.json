@@ -8,6 +8,11 @@
   },
   "data": [
     {
+      "text": "ASP.NET Core WebAPI Response Return Types | .NET fullstack dev - 012",
+      "link": "https://www.youtube.com/watch?v=x3jRpYORsyc",
+      "thumbnailUri": "https://i1.ytimg.com/vi/x3jRpYORsyc/hqdefault.jpg"
+    },
+    {
       "text": "Mastering Web API Attribute Routing in ASP.NET Core | .NET fullstack dev - 011",
       "link": "https://www.youtube.com/watch?v=OP1gl9KcM1A",
       "thumbnailUri": "https://i4.ytimg.com/vi/OP1gl9KcM1A/hqdefault.jpg"
@@ -26,11 +31,6 @@
       "text": "Learn RESTful API by building Fishcard: Core concepts | .NET fullstack dev - 008",
       "link": "https://www.youtube.com/watch?v=VIObIFg0yS0",
       "thumbnailUri": "https://i3.ytimg.com/vi/VIObIFg0yS0/hqdefault.jpg"
-    },
-    {
-      "text": "Learn Blazor by building Fishcard: looking back, moving forward | .NET fullstack dev - 007",
-      "link": "https://www.youtube.com/watch?v=N3wmKqE_tTY",
-      "thumbnailUri": "https://i3.ytimg.com/vi/N3wmKqE_tTY/hqdefault.jpg"
     }
   ]
 }

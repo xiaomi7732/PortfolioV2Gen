@@ -10,6 +10,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <!-- Build action is `None`, and the option for copy to output directory could be `Always` or `PreserveNewest` -->
+    <None Include="./settings.jsonc" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
 </Project>

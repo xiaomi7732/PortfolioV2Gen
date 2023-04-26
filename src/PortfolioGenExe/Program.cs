@@ -1,5 +1,7 @@
-﻿using System.Text;
+﻿using System.Reflection;
+using System.Text;
 using System.Text.Json;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
@@ -13,6 +15,15 @@ namespace PortfolioGenExe
         private readonly IEnumerable<IGen> _generators;
         private readonly JsonSerializerOptions _serializerOptions;
         private readonly ILogger<Program> _logger;
+        private static readonly string _targetHtml;
+
+        static Program()
+        {
+            string basePath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)!;
+            string settingsFilePath =Path.GetFullPath(Path.Combine(basePath, "settings.jsonc"));
+            IConfiguration configuration = new ConfigurationBuilder().AddJsonFile(settingsFilePath, optional: false).Build();
+            _targetHtml = Path.GetFullPath(configuration["htmlTarget"] ?? throw new InvalidOperationException("html file target is not specified."));
+        }
 
         public Program(
             YouTubeFeedReader youTubeFeedReader,
@@ -20,6 +31,8 @@ namespace PortfolioGenExe
             JsonSerializerOptions serializerOptions,
             ILogger<Program> logger)
         {
+            logger.LogInformation("HTML target: {target}", _targetHtml);
+
             _youTubeFeedReader = youTubeFeedReader;
             _generators = generators ?? throw new ArgumentNullException(nameof(generators));
             _serializerOptions = serializerOptions ?? throw new ArgumentNullException(nameof(serializerOptions));
@@ -39,7 +52,7 @@ namespace PortfolioGenExe
                 TemplateUpdateService templateUpdater = provider.GetRequiredService<TemplateUpdateService>();
 
                 logger.LogInformation("Logging system is ready.");
-                string template = await File.ReadAllTextAsync(@"D:\Repos\PortofolioV2\index.html");
+                string template = await File.ReadAllTextAsync(_targetHtml);
 
                 foreach (string file in Directory.EnumerateFiles("Data", "*.json"))
                 {
@@ -61,7 +74,7 @@ namespace PortfolioGenExe
                     }
                 }
 
-                await File.WriteAllTextAsync(@"D:\Repos\PortofolioV2\index.html", template, Encoding.UTF8);
+                await File.WriteAllTextAsync(_targetHtml, template, Encoding.UTF8);
             }
         }
 
