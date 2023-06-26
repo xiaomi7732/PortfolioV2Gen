@@ -7,6 +7,30 @@
   },
   "data": [
     {
+      "text": "Dockerize an ASP.NET Core Web Application",
+      "link": "https://gist.github.com/xiaomi7732/9c5ecaf9306632a378699c22d84152fa"
+    },
+    {
+      "text": "Bash into containers - docker or k8s",
+      "link": "https://gist.github.com/xiaomi7732/a0cb942121f1bef0d48219260e440f8b"
+    },
+    {
+      "text": "My Git Cheatsheet",
+      "link": "https://gist.github.com/xiaomi7732/a17a17925fb9cb913f921262e43ec501"
+    },
+    {
+      "text": "How to use matrix and condition in GitHub Actions",
+      "link": "https://gist.github.com/xiaomi7732/f8fa6c0ea5528310c70fad5687aeeefd"
+    },
+    {
+      "text": "Init a submodule in github",
+      "link": "https://gist.github.com/xiaomi7732/0bac0f9e31fc56e4fbde6b2bf91e2d9a"
+    },
+    {
+      "text": "Directory.Build.props example",
+      "link": "https://gist.github.com/xiaomi7732/76ee2cb6d46435872309e491c787b545"
+    },
+    {
       "text": "Get proper disk space for mounted volume",
       "link": "https://gist.github.com/xiaomi7732/c097c89e4fdf1bf8923c302bcf553930"
     },
