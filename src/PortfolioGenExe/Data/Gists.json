@@ -7,6 +7,10 @@
   },
   "data": [
     {
+      "text": "Link external file in csproj for compiling",
+      "link": "https://gist.github.com/xiaomi7732/5639a0b17adac3a4dc21bd95c2065486"
+    },
+    {
       "text": "Dockerize an ASP.NET Core Web Application",
       "link": "https://gist.github.com/xiaomi7732/9c5ecaf9306632a378699c22d84152fa"
     },
