@@ -7,6 +7,10 @@
   },
   "data": [
     {
+      "text": "Hash a string into a guid",
+      "link": "https://gist.github.com/xiaomi7732/eb097ebcbe7ffe5c568ccbcf3b334c25"
+    },
+    {
       "text": "Link external file in csproj for compiling",
       "link": "https://gist.github.com/xiaomi7732/5639a0b17adac3a4dc21bd95c2065486"
     },
