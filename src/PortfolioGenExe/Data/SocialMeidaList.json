@@ -12,14 +12,9 @@
       "link": "https://youtube.com/codewithsaar"
     },
     {
-      "name": "twitter",
-      "text": "@SaarShen",
-      "link": "https://twitter.com/SaarShen"
-    },
-    {
-      "name": "twitter",
-      "text": "@CodeWithSaar",
-      "link": "https://twitter.com/CodeWithSaar"
+      "name": "mastodon",
+      "text": "@saar@twit.social",
+      "link": "https://twit.social/@saar"
     },
     {
       "name": "github",
@@ -30,6 +25,16 @@
       "name": "discord",
       "text": "Code with Saar",
       "link": "https://discord.gg/H8ZqDgczQb"
+    },
+    {
+      "name": "twitter",
+      "text": "@SaarShen",
+      "link": "https://twitter.com/SaarShen"
+    },
+    {
+      "name": "twitter",
+      "text": "@CodeWithSaar",
+      "link": "https://twitter.com/CodeWithSaar"
     }
   ]
 }
