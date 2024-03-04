@@ -7,6 +7,10 @@
   },
   "data": [
     {
+      "text": "Run asynchronous code before hosting get started",
+      "link": "https://gist.github.com/xiaomi7732/c96c427b3d0ac971bc6c012a634d0a0b"
+    },
+    {
       "text": "Handling Special Characters in RouteValues for CreatedAtAction",
       "link": "https://gist.github.com/xiaomi7732/2b531bad9a6f88ee49483a1975a47166"
     },
