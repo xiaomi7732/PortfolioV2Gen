@@ -12,29 +12,19 @@
       "link": "https://youtube.com/codewithsaar"
     },
     {
-      "name": "mastodon",
-      "text": "@saar@twit.social",
-      "link": "https://twit.social/@saar"
-    },
-    {
       "name": "github",
       "text": "xiaomi7732",
       "link": "https://github.com/xiaomi7732"
     },
     {
-      "name": "discord",
-      "text": "Code with Saar",
-      "link": "https://discord.gg/H8ZqDgczQb"
+      "name": "bluesky",
+      "text": "@codewithsaar.com",
+      "link": "https://bsky.app/profile/codewithsaar.com"
     },
     {
-      "name": "twitter",
-      "text": "@SaarShen",
-      "link": "https://twitter.com/SaarShen"
-    },
-    {
-      "name": "twitter",
-      "text": "@CodeWithSaar",
-      "link": "https://twitter.com/CodeWithSaar"
+      "name": "mastodon",
+      "text": "@saar@twit.social",
+      "link": "https://twit.social/@saar"
     }
   ]
 }
