@@ -7,6 +7,14 @@
   },
   "data": [
     {
+      "text": "Run SQL Express in a Container",
+      "link": "https://gist.github.com/xiaomi7732/40750c0765ffd125a833961c355b5bcd"
+    },
+    {
+      "text": "Deploy .NET 8 to Linux Azure App Service Using ARM Templates",
+      "link": "https://gist.github.com/xiaomi7732/cb6bd0c45a189059183d3991480f01c7"
+    },
+    {
       "text": "Run asynchronous code before hosting get started",
       "link": "https://gist.github.com/xiaomi7732/c96c427b3d0ac971bc6c012a634d0a0b"
     },
