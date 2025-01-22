@@ -7,6 +7,10 @@
   },
   "data": [
     {
+      "text": "Hidden Bug Caused by Static Member Initialization",
+      "link": "https://gist.github.com/xiaomi7732/d781bbaf39b0425df69d4c41ce4a09f2"
+    },
+    {
       "text": "Run SQL Express in a Container",
       "link": "https://gist.github.com/xiaomi7732/40750c0765ffd125a833961c355b5bcd"
     },
