@@ -81,14 +81,9 @@ namespace PortfolioGenExe
         static IServiceCollection AddServices()
         {
             ServiceCollection serviceCollection = new ServiceCollection();
-            serviceCollection.AddLogging(configure =>
-            {
-                configure.AddSimpleConsole(opt =>
-                {
-                    opt.SingleLine = true;
-                });
+            serviceCollection.AddLogging(logging => {
+                logging.AddSimpleConsole().PrettyIt();
             });
-
             serviceCollection.AddSingleton<JsonSerializerOptions>(_ =>
             {
                 JsonSerializerOptions options = new JsonSerializerOptions(JsonSerializerDefaults.Web);
