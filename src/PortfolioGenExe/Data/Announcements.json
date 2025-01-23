@@ -9,6 +9,14 @@
   },
   "data": [
     {
+      "date": "1/20/2025",
+      "leading": "Published a new NuGet package",
+      "text": "PrettyLogging",
+      "description": "Make Microsoft.Extensions.Logging easier on the eyes!",
+      "link": "https://www.nuget.org/packages/PrettyLogging.Console",
+      "source": "https://github.com/xiaomi7732/PrettyLogging"
+    },
+    {
       "date": "12/20/2022",
       "leading": "Published new project",
       "text": "Roshambo (Rock, Paper and Scissors)",
@@ -21,7 +29,7 @@
       "leading": "Published new project",
       "text": ".NET Project Dependency Analyzer",
       "description": "Visualize your project dependencies",
-      "link": "https://dep.codewithsaar.net",
+      "link": "https://dep.codewithsaar.com",
       "source": "https://www.github.com/xiaomi7732/ProjectDependencyViz"
     },
     {
